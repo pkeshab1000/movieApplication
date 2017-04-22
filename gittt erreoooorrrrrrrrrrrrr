@@ -1,0 +1,415 @@
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication
+$ ls
+App_Http_routes.php  App_Http_VideoStream.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication
+$ git init
+Initialized empty Git repository in E:/phpxamp/htdocs/movieApplication/.git/
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ dir
+App_Http_routes.php  App_Http_VideoStream.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ ls
+App_Http_routes.php  App_Http_VideoStream.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        App_Http_VideoStream.php
+        App_Http_routes.php
+        resources_views_player.blade.php
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ ls movieApplication
+ls: cannot access 'movieApplication': No such file or directory
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add .
+warning: LF will be replaced by CRLF in App_Http_VideoStream.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in App_Http_routes.php.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in resources_views_player.blade.php.
+The file will have its original line endings in your working directory.
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   App_Http_VideoStream.php
+        new file:   App_Http_routes.php
+        new file:   resources_views_player.blade.php
+
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ ls
+App_Http_routes.php  App_Http_VideoStream.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ dir
+App_Http_routes.php  App_Http_VideoStream.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+Did you mean this?
+        log
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ log
+bash: log: command not found
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ ls -a
+./   .git/                App_Http_VideoStream.php
+../  App_Http_routes.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ dir
+App_Http_routes.php  App_Http_VideoStream.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ dir
+App_Http_routes.php  App_Http_VideoStream.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ ls
+App_Http_routes.php  App_Http_VideoStream.php  resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   App_Http_VideoStream.php
+        new file:   App_Http_routes.php
+        new file:   resources_views_player.blade.php
+
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$  get status
+bash: get: command not found
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   App_Http_VideoStream.php
+        new file:   App_Http_routes.php
+        new file:   resources_views_player.blade.php
+
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m "first commit is here"
+[master (root-commit) 18e8900] first commit is here
+ Committer: Keshab Pradhan <Keshab Pradhan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 63 insertions(+)
+ create mode 100644 App_Http_VideoStream.php
+ create mode 100644 App_Http_routes.php
+ create mode 100644 resources_views_player.blade.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m 'keshab'
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m 'aa'
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git remote add original git@github.com:pkeshab1000/movieApplication
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ commit -m "first commit"
+bash: commit: command not found
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -a -m 'committing all files'
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ commit -m "first commit"
+bash: commit: command not found
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
+>   [ -r "$file" ] && source "$file"
+> done
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ commit -m "first commit"
+bash: commit: command not found
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add .
+warning: LF will be replaced by CRLF in App_Http_routes.php.
+The file will have its original line endings in your working directory.
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add  App_Http_routes.php.
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m "first got its commit"
+[master 46f6250] first got its commit
+ Committer: Keshab Pradhan <Keshab Pradhan>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ ^C
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$  git config --global user.name "Your Name"
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$     git config --global user.email you@example.com
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$  git config --global user.name "pkeshab1000"
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$     git config --global user.email pkeshab1000@gmail.com
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m "fuckuppppppppppppppppp"
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add  App_Http_routes.php.
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   App_Http_routes.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add .
+warning: LF will be replaced by CRLF in App_Http_routes.php.
+The file will have its original line endings in your working directory.
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add  App_Http_routes.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m "hhhh"
+[master 44dc4b0] hhhh
+ 1 file changed, 24 insertions(+)
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git remote add origin https://github.com/pkeshab1000/movieApplication.git
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git push -u origin master
+
+
+
+Counting objects: 11, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 1.65 KiB | 0 bytes/s, done.
+Total 11 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/pkeshab1000/movieApplication.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ status
+bash: status: command not found
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   App_Http_routes.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add  App_Http_routes.php
+warning: LF will be replaced by CRLF in App_Http_routes.php.
+The file will have its original line endings in your working directory.
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add App_Http_routes.php
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m 'remmo removed echo code from App_Http_routes file'
+[master a2eae02] remmo removed echo code from App_Http_routes file
+ 1 file changed, 26 insertions(+), 49 deletions(-)
+ rewrite App_Http_routes.php (61%)
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git add code.txt
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   code.txt
+
+
+pkesh@DESKTOP-G9TRI23 MINGW64 /e/phpxamp/htdocs/movieApplication (master)
+$ git commit -m "codefile is added'
+>
+> hello world
+> hello vaisapp
+> exit
+> exit()
+> i
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
