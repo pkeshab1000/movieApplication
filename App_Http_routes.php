@@ -22,3 +22,4 @@ Route::get('/video/{filename}', function ($filename) {
 
     return response("File doesn't exists", 404);
 });
+echo "its first commit is for first time learnig ";
